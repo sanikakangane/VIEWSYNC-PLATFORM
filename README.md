@@ -15,153 +15,129 @@ The system is designed using appropriate Data Structures and Algorithms to provi
 
 ---
 
-# Features
+## Features
 
-## 1. Catalog Directory
+### 1. Catalog Directory
 
 Organizes and classifies the complete video catalog using metadata.
 
-### Operations
+#### Operations
 - Add Video Metadata
 - Search Videos by Genre
 - Search Videos by Category
 - Search Videos by Tag
 - Display Complete Catalog
 
-### Data Structures Used
+#### Data Structures Used
 - Vector
 - Unordered Map
 
-### Purpose
-Provides efficient classification and searching of video content.
-
 ---
 
-## 2. Correction Log
+### 2. Correction Log
 
 Maintains subscriber viewing history changes and supports rollback.
 
-### Operations
+#### Operations
 - Record Viewing State Change
 - Undo Last Viewing State Change
 - Display Current Viewing States
 
-### Data Structure Used
+#### Data Structure Used
 - Stack
-
-### Purpose
-Allows instant reversal of incorrect viewing state updates.
 
 ---
 
-## 3. Algorithm Pipeline
+### 3. Algorithm Pipeline
 
 Processes profile-related tasks in the order they arrive.
 
-### Operations
+#### Operations
 - Add Profile Processing Task
 - Process Next Task
 - Display Pending Tasks
 
-### Data Structure Used
+#### Data Structure Used
 - Queue
-
-### Purpose
-Maintains FIFO processing for recommendation updates and user profile tasks.
 
 ---
 
-## 4. Registration Code
+### 4. Registration Code
 
 Stores and validates publisher licensing information.
 
-### Operations
+#### Operations
 - Add License Code
 - Verify License by Region
 - Display Registered Licenses
 
-### Data Structure Used
+#### Data Structure Used
 - Unordered Map
-
-### Purpose
-Provides fast content licensing verification.
 
 ---
 
-## 5. Clip Sorter
+### 5. Clip Sorter
 
 Ranks streaming clips according to viewer retention.
 
-### Operations
+#### Operations
 - Add Clip Retention Data
 - Sort Clips by Retention
 - Display Ranked Clips
 
-### Algorithm Used
+#### Algorithm Used
 - STL Sort
-
-### Purpose
-Identifies highly engaging content for recommendation and promotion.
 
 ---
 
-## 6. Syndication Grid
+### 6. Syndication Grid
 
 Represents global licensing platforms and their connections.
 
-### Operations
+#### Operations
 - Add Licensing Platform
 - Add Licensing Connection
 - Display Syndication Network
 
-### Data Structure Used
+#### Data Structure Used
 - Graph (Adjacency List)
-
-### Purpose
-Models the content licensing and distribution ecosystem.
 
 ---
 
-## 7. Delivery Transport
+### 7. Delivery Transport
 
 Finds the lowest-cost content delivery route.
 
-### Operations
+#### Operations
 - Select Source Platform
 - Select Destination Platform
 - Calculate Lowest Cost Path
 
-### Algorithms Used
+#### Algorithms Used
 - Dijkstra's Algorithm
 - Priority Queue
 
-### Purpose
-Optimizes content delivery through the syndication network.
-
 ---
 
-## 8. Frame Splitter
+### 8. Frame Splitter
 
 Distributes video encoding workloads across processors.
 
-### Operations
+#### Operations
 - Add Frame Encoding Times
 - Assign Frames to Processors
 - Display Load Distribution
 
-### Data Structures Used
+#### Data Structures Used
 - Priority Queue (Min Heap)
 - Vector
 
-### Algorithm Used
+#### Algorithm Used
 - Greedy Scheduling
-
-### Purpose
-Balances processor load and minimizes total encoding time.
 
 ---
 
-# Data Structures Used
+## Data Structures Used
 
 | Module | Data Structure |
 |----------|---------------|
@@ -176,26 +152,18 @@ Balances processor load and minimizes total encoding time.
 
 ---
 
-# Algorithms Used
+## Algorithms Used
 
-### Searching
-- Hash-based Lookup using Unordered Map
-
-### Sorting
-- STL Sort for Clip Ranking
-
-### Graph Processing
-- Adjacency List Representation
-
-### Shortest Path
-- Dijkstra's Algorithm
-
-### Scheduling
-- Greedy Load Balancing using Min Heap
+- Hash-based Searching using Unordered Map
+- STL Sort
+- Graph Representation using Adjacency List
+- Dijkstra's Shortest Path Algorithm
+- Greedy Load Balancing
+- Priority Queue Scheduling
 
 ---
 
-# DSA Concepts Demonstrated
+## DSA Concepts Demonstrated
 
 - Arrays and Vectors
 - Hash Maps
@@ -211,7 +179,7 @@ Balances processor load and minimizes total encoding time.
 
 ---
 
-# Sample Output
+## Sample Output
 
 ```text
 ============================================================
@@ -235,28 +203,28 @@ MAIN MENU
 
 ---
 
-# Project Structure
+## Repository Structure
 
 ```text
-ViewSync/
+VIEWSYNC-PLATFORM/
 │
 ├── viewsync.cpp
 ├── README.md
-└── Problem_Statement.pdf
+└── ViewSync_DSA_Project_Report.pdf
 ```
 
 ---
 
-# Compilation & Execution
+## Compilation & Execution
 
-## Using Clang++
+### Using Clang++
 
 ```bash
 clang++ viewsync.cpp -o viewsync
 ./viewsync
 ```
 
-## Using G++
+### Using G++
 
 ```bash
 g++ viewsync.cpp -o viewsync
@@ -265,7 +233,7 @@ g++ viewsync.cpp -o viewsync
 
 ---
 
-# Real-World Mapping
+## Real-World Mapping
 
 | ViewSync Module | Real-World Equivalent |
 |-----------------|----------------------|
@@ -280,9 +248,7 @@ g++ viewsync.cpp -o viewsync
 
 ---
 
-# Sample Dataset Included
-
-The project includes preloaded sample data for:
+## Sample Data Included
 
 ### Videos
 - Ocean Crimes
@@ -307,22 +273,23 @@ The project includes preloaded sample data for:
 
 ---
 
-# Learning Outcomes
+## Learning Outcomes
 
-Through this project, students gain practical experience in:
+This project demonstrates practical applications of:
 
-- Designing real-world DSA applications
-- Implementing efficient searching techniques
-- Managing rollback operations using stacks
-- Processing tasks using queues
-- Working with graphs and shortest path algorithms
-- Applying sorting for ranking systems
-- Using priority queues for optimization problems
-- Solving workload balancing challenges
+- Data Structures and Algorithms
+- Hashing Techniques
+- Stack-based Rollback Systems
+- Queue-based Task Scheduling
+- Graph Modeling
+- Shortest Path Optimization
+- Sorting and Ranking Systems
+- Load Balancing Techniques
+- Real-world System Design using DSA
 
 ---
 
-# Author
+## Author
 
 **Sanika Kangane**  
 B.Tech CSE (2025–2029)  
@@ -330,7 +297,7 @@ ITM Skills University
 
 ---
 
-# Course Information
+## Course Information
 
 **Course:** Data Structures & Algorithms with C++  
 **Semester:** II  
@@ -338,6 +305,6 @@ ITM Skills University
 
 ---
 
-# Acknowledgement
+## Acknowledgement
 
-This project was developed as part of the academic coursework for Data Structures & Algorithms with C++. The implementation focuses on applying fundamental DSA concepts to solve practical challenges faced by modern video streaming platforms.
+This project was developed as part of the academic coursework for Data Structures & Algorithms with C++. The implementation focuses on applying fundamental DSA concepts to solve real-world challenges faced by modern video streaming platforms.
