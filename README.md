@@ -337,9 +337,9 @@ This implementation highlights how fundamental DSA concepts can be used to build
 ```text
 VIEWSYNC-PLATFORM/
 │
-├── viewsync.cpp
 ├── README.md
-└── ViewSync_DSA_Project_Report.pdf
+├── ViewSync_DSA_Project.pptx
+└── viewsync.cpp
 ```
 
 ---
